@@ -1,0 +1,244 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File FileFormat="23" RecordLimit="">aka:wks azure sql akshita22|||select [akshita22-db].SalesLT.Product.* 
+from [akshita22-db].SalesLT.Product</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:wks azure sql akshita22
+Query=select [akshita22-db].SalesL...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ProductID" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=akshita22;PWD=__EncPwd1__;DATABASE=akshita22-db;SERVER=akshita22-sql-dbserver.database.windows.net|||select [akshita22-db].SalesLT.Product.* &#xA;from [akshita22-db].SalesLT.Product" type="Int32" />
+            <Field name="Name" size="50" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=akshita22;PWD=__EncPwd1__;DATABASE=akshita22-db;SERVER=akshita22-sql-dbserver.database.windows.net|||select [akshita22-db].SalesLT.Product.* &#xA;from [akshita22-db].SalesLT.Product" type="V_WString" />
+            <Field name="ProductNumber" size="25" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=akshita22;PWD=__EncPwd1__;DATABASE=akshita22-db;SERVER=akshita22-sql-dbserver.database.windows.net|||select [akshita22-db].SalesLT.Product.* &#xA;from [akshita22-db].SalesLT.Product" type="V_WString" />
+            <Field name="Color" size="15" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=akshita22;PWD=__EncPwd1__;DATABASE=akshita22-db;SERVER=akshita22-sql-dbserver.database.windows.net|||select [akshita22-db].SalesLT.Product.* &#xA;from [akshita22-db].SalesLT.Product" type="V_WString" />
+            <Field name="StandardCost" scale="4" size="21" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=akshita22;PWD=__EncPwd1__;DATABASE=akshita22-db;SERVER=akshita22-sql-dbserver.database.windows.net|||select [akshita22-db].SalesLT.Product.* &#xA;from [akshita22-db].SalesLT.Product" type="FixedDecimal" />
+            <Field name="ListPrice" scale="4" size="21" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=akshita22;PWD=__EncPwd1__;DATABASE=akshita22-db;SERVER=akshita22-sql-dbserver.database.windows.net|||select [akshita22-db].SalesLT.Product.* &#xA;from [akshita22-db].SalesLT.Product" type="FixedDecimal" />
+            <Field name="Size" size="5" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=akshita22;PWD=__EncPwd1__;DATABASE=akshita22-db;SERVER=akshita22-sql-dbserver.database.windows.net|||select [akshita22-db].SalesLT.Product.* &#xA;from [akshita22-db].SalesLT.Product" type="V_WString" />
+            <Field name="Weight" scale="2" size="10" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=akshita22;PWD=__EncPwd1__;DATABASE=akshita22-db;SERVER=akshita22-sql-dbserver.database.windows.net|||select [akshita22-db].SalesLT.Product.* &#xA;from [akshita22-db].SalesLT.Product" type="FixedDecimal" />
+            <Field name="ProductCategoryID" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=akshita22;PWD=__EncPwd1__;DATABASE=akshita22-db;SERVER=akshita22-sql-dbserver.database.windows.net|||select [akshita22-db].SalesLT.Product.* &#xA;from [akshita22-db].SalesLT.Product" type="Int32" />
+            <Field name="ProductModelID" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=akshita22;PWD=__EncPwd1__;DATABASE=akshita22-db;SERVER=akshita22-sql-dbserver.database.windows.net|||select [akshita22-db].SalesLT.Product.* &#xA;from [akshita22-db].SalesLT.Product" type="Int32" />
+            <Field name="SellStartDate" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=akshita22;PWD=__EncPwd1__;DATABASE=akshita22-db;SERVER=akshita22-sql-dbserver.database.windows.net|||select [akshita22-db].SalesLT.Product.* &#xA;from [akshita22-db].SalesLT.Product" type="DateTime" />
+            <Field name="SellEndDate" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=akshita22;PWD=__EncPwd1__;DATABASE=akshita22-db;SERVER=akshita22-sql-dbserver.database.windows.net|||select [akshita22-db].SalesLT.Product.* &#xA;from [akshita22-db].SalesLT.Product" type="DateTime" />
+            <Field name="DiscontinuedDate" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=akshita22;PWD=__EncPwd1__;DATABASE=akshita22-db;SERVER=akshita22-sql-dbserver.database.windows.net|||select [akshita22-db].SalesLT.Product.* &#xA;from [akshita22-db].SalesLT.Product" type="DateTime" />
+            <Field name="ThumbNailPhoto" size="2147483647" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=akshita22;PWD=__EncPwd1__;DATABASE=akshita22-db;SERVER=akshita22-sql-dbserver.database.windows.net|||select [akshita22-db].SalesLT.Product.* &#xA;from [akshita22-db].SalesLT.Product" type="Blob" />
+            <Field name="ThumbnailPhotoFileName" size="50" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=akshita22;PWD=__EncPwd1__;DATABASE=akshita22-db;SERVER=akshita22-sql-dbserver.database.windows.net|||select [akshita22-db].SalesLT.Product.* &#xA;from [akshita22-db].SalesLT.Product" type="V_WString" />
+            <Field name="rowguid" size="36" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=akshita22;PWD=__EncPwd1__;DATABASE=akshita22-db;SERVER=akshita22-sql-dbserver.database.windows.net|||select [akshita22-db].SalesLT.Product.* &#xA;from [akshita22-db].SalesLT.Product" type="V_String" />
+            <Field name="ModifiedDate" source="File: odbc:DRIVER={SQL Server Native Client 11.0};UID=akshita22;PWD=__EncPwd1__;DATABASE=akshita22-db;SERVER=akshita22-sql-dbserver.database.windows.net|||select [akshita22-db].SalesLT.Product.* &#xA;from [akshita22-db].SalesLT.Product" type="DateTime" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="246" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ProductID" selected="True" />
+            <SelectField field="Name" selected="True" />
+            <SelectField field="ProductNumber" selected="True" />
+            <SelectField field="Color" selected="True" />
+            <SelectField field="StandardCost" selected="True" />
+            <SelectField field="ListPrice" selected="True" />
+            <SelectField field="Size" selected="True" />
+            <SelectField field="Weight" selected="True" />
+            <SelectField field="ProductCategoryID" selected="True" />
+            <SelectField field="ProductModelID" selected="True" />
+            <SelectField field="SellStartDate" selected="True" />
+            <SelectField field="SellEndDate" selected="True" />
+            <SelectField field="DiscontinuedDate" selected="True" />
+            <SelectField field="ModifiedDate" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="450" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">odbc:DSN=akshmysql|||product</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TableStyle>Quoted</TableStyle>
+            <AppendMap>
+              <AppendMapping mode="Custom">
+                <Field Source="ProductID" Dest="ProductID" />
+                <Field Source="Name" Dest="ProductName" />
+                <Field Source="ProductNumber" Dest="ProductNumber" />
+                <Field Source="StandardCost" Dest="StandardCost" />
+                <Field Source="ListPrice" Dest="ListPrice" />
+                <Field Source="Weight" Dest="Weight" />
+                <Field Source="ProductCategoryID" Dest="ProductCategoryID" />
+                <Field Source="ProductModelID" Dest="ProductModelID" />
+                <Field Source="SellStartDate" Dest="SellStartDate" />
+                <Field Source="SellEndDate" Dest="SellEndDate" />
+                <Field Source="DiscontinuedDate" Dest="DiscontinuedDate" />
+                <Field Source="ModifiedDate" Dest="ModifiedDate" />
+              </AppendMapping>
+            </AppendMap>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=akshmysql
+Query=product</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="450" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">odbc:DSN=PostgreSQL35AW|||product</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Delete</OutputOption>
+            <AppendMap>
+              <AppendMapping mode="Custom">
+                <Field Source="ProductID" Dest="productid" />
+                <Field Source="Name" Dest="productname" />
+                <Field Source="ProductNumber" Dest="productnumber" />
+                <Field Source="StandardCost" Dest="standardcost" />
+                <Field Source="ListPrice" Dest="listprice" />
+                <Field Source="Weight" Dest="weight" />
+                <Field Source="ProductCategoryID" Dest="productcategoryid" />
+                <Field Source="ProductModelID" Dest="productmodelid" />
+                <Field Source="SellStartDate" Dest="sellstartdate" />
+                <Field Source="SellEndDate" Dest="sellenddate" />
+                <Field Source="DiscontinuedDate" Dest="discontinueddate" />
+                <Field Source="ModifiedDate" Dest="modifieddate" />
+              </AppendMapping>
+            </AppendMap>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=PostgreSQL35AW
+Query=product</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>wks database 1c</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="03ea6b29-176e-4b1f-8de9-33c4a3af4ee0" />
+      <Telemetry>
+        <PreviousWorkflowId value="ecd93157-357f-4569-9ea8-26ec866b3c12" />
+        <OriginWorkflowId value="ecd93157-357f-4569-9ea8-26ec866b3c12" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
