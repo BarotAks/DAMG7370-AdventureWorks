@@ -1,0 +1,406 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File FileFormat="23" RecordLimit="">aka:wks_azure_sql_akshita22|||select [akshita22-db].SalesLT.SalesOrderDetail.SalesOrderID,
+	[akshita22-db].SalesLT.SalesOrderDetail.SalesOrderDetailID,
+	[akshita22-db].SalesLT.SalesOrderDetail.OrderQty,
+	[akshita22-db].SalesLT.SalesOrderDetail.ProductID,
+	[akshita22-db].SalesLT.SalesOrderDetail.UnitPrice,
+	[akshita22-db].SalesLT.SalesOrderDetail.UnitPriceDiscount,
+	[akshita22-db].SalesLT.SalesOrderDetail.LineTotal,
+	[akshita22-db].SalesLT.SalesOrderDetail.ModifiedDate 
+from [akshita22-db].SalesLT.SalesOrderDetail</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:wks_azure_sql_akshita22
+Query=select [akshita22-db].SalesL...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="SalesOrderID" source="File: aka:wks_azure_sql_akshita22|||select [akshita22-db].SalesLT.SalesOrderDetail.SalesOrderID,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.SalesOrderDetailID,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.OrderQty,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.ProductID,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.UnitPrice,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.UnitPriceDiscount,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.LineTotal,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.ModifiedDate &#xA;from [akshita22-db].SalesLT.SalesOrderDetail" type="Int32" />
+            <Field name="SalesOrderDetailID" source="File: aka:wks_azure_sql_akshita22|||select [akshita22-db].SalesLT.SalesOrderDetail.SalesOrderID,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.SalesOrderDetailID,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.OrderQty,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.ProductID,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.UnitPrice,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.UnitPriceDiscount,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.LineTotal,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.ModifiedDate &#xA;from [akshita22-db].SalesLT.SalesOrderDetail" type="Int32" />
+            <Field name="OrderQty" source="File: aka:wks_azure_sql_akshita22|||select [akshita22-db].SalesLT.SalesOrderDetail.SalesOrderID,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.SalesOrderDetailID,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.OrderQty,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.ProductID,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.UnitPrice,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.UnitPriceDiscount,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.LineTotal,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.ModifiedDate &#xA;from [akshita22-db].SalesLT.SalesOrderDetail" type="Int16" />
+            <Field name="ProductID" source="File: aka:wks_azure_sql_akshita22|||select [akshita22-db].SalesLT.SalesOrderDetail.SalesOrderID,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.SalesOrderDetailID,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.OrderQty,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.ProductID,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.UnitPrice,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.UnitPriceDiscount,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.LineTotal,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.ModifiedDate &#xA;from [akshita22-db].SalesLT.SalesOrderDetail" type="Int32" />
+            <Field name="UnitPrice" scale="4" size="21" source="File: aka:wks_azure_sql_akshita22|||select [akshita22-db].SalesLT.SalesOrderDetail.SalesOrderID,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.SalesOrderDetailID,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.OrderQty,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.ProductID,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.UnitPrice,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.UnitPriceDiscount,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.LineTotal,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.ModifiedDate &#xA;from [akshita22-db].SalesLT.SalesOrderDetail" type="FixedDecimal" />
+            <Field name="UnitPriceDiscount" scale="4" size="21" source="File: aka:wks_azure_sql_akshita22|||select [akshita22-db].SalesLT.SalesOrderDetail.SalesOrderID,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.SalesOrderDetailID,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.OrderQty,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.ProductID,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.UnitPrice,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.UnitPriceDiscount,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.LineTotal,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.ModifiedDate &#xA;from [akshita22-db].SalesLT.SalesOrderDetail" type="FixedDecimal" />
+            <Field name="LineTotal" scale="6" size="40" source="File: aka:wks_azure_sql_akshita22|||select [akshita22-db].SalesLT.SalesOrderDetail.SalesOrderID,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.SalesOrderDetailID,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.OrderQty,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.ProductID,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.UnitPrice,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.UnitPriceDiscount,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.LineTotal,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.ModifiedDate &#xA;from [akshita22-db].SalesLT.SalesOrderDetail" type="FixedDecimal" />
+            <Field name="ModifiedDate" source="File: aka:wks_azure_sql_akshita22|||select [akshita22-db].SalesLT.SalesOrderDetail.SalesOrderID,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.SalesOrderDetailID,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.OrderQty,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.ProductID,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.UnitPrice,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.UnitPriceDiscount,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.LineTotal,&#xA;	[akshita22-db].SalesLT.SalesOrderDetail.ModifiedDate &#xA;from [akshita22-db].SalesLT.SalesOrderDetail" type="DateTime" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="198" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="SalesOrderID" selected="True" />
+            <SelectField field="SalesOrderDetailID" selected="True" />
+            <SelectField field="OrderQty" selected="True" />
+            <SelectField field="ProductID" selected="True" />
+            <SelectField field="UnitPrice" selected="True" />
+            <SelectField field="UnitPriceDiscount" selected="True" />
+            <SelectField field="LineTotal" selected="True" size="38.6" />
+            <SelectField field="ModifiedDate" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="342" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeNow()" field="DI_CreateDT" size="19" type="DateTime" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[DI_CreateDT = DateTimeNow()
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="498" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>RecordID</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="798" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">odbc:DSN=mysql|||OrderSalesDetail</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <AppendMap>
+              <AppendMapping mode="ByName" />
+            </AppendMap>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=mysql
+Query=OrderSalesDetail</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="966" y="78" width="100" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>MySQL</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="798" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:wks azure sql akshita22|||OrderSalesDetail</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Overwrite</OutputOption>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:wks azure sql akshita22
+Query=OrderSalesDetail</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="966" y="186" width="100" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Azure SQL akshita22 dbo schema</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="798" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:wks azure damg7370 schema|||OrderSalesDetail</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Overwrite</OutputOption>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:wks azure damg7370 schema
+Query=OrderSalesDetail</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="966" y="438" width="100" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Azure SQL damg7370 schema</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="798" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">odbc:DSN=PostgreSQL35AW|||OrderSalesDetail</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Overwrite</OutputOption>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=PostgreSQL35AW
+Query=OrderSalesDetail</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="966" y="318" width="100" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>PostgreSQL</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>wks database 1a</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="fe95a93e-09f4-4046-bb6b-f460917ef915" />
+      <Telemetry>
+        <PreviousWorkflowId value="dade80ce-fdaa-4a25-95ac-63473b595613" />
+        <OriginWorkflowId value="dade80ce-fdaa-4a25-95ac-63473b595613" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
